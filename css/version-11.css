@@ -1,0 +1,128 @@
+#image{
+    margin-left: 20%;
+    width:60%;
+    height:40%;
+}
+#figcap{
+    text-align: center;
+    
+}
+h2{
+    text-align: center;
+}
+.li{
+    margin-left: 40%;
+}
+.image1{
+    display: inline-block;
+    width:40%;
+    margin: 0%;
+}
+#li3{
+    position: absolute;
+    margin: 0% 0% 64px 0%;
+    padding: 0% 0% 20px 0%;
+}
+.li3{
+    display: inline-block;
+    list-style-type: inherit;
+    margin: 0px 13% 0px 13%;
+}
+#image2{
+    margin-left: 10%;
+}
+h1{
+    text-align: center;
+}
+#nav{
+    background-color:white;
+    position:sticky;
+}
+#nav>ul{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0px;
+    overflow:hidden;
+}
+li{
+display: inline-block;
+float: left;
+}
+a{
+    display: inline-block;
+text-decoration: none;
+padding: 10px 30px 10px 30px;
+text-align: center;
+color: black;
+
+}
+#first{
+    padding-left: 30px;
+    padding-bottom: 0px;
+    padding-top: 7px;
+    padding-bottom: 1px;
+    margin-left:1rem;
+   margin-top: 0px;
+    margin-right: 17rem;
+
+}
+a:hover{
+    background-color:black;
+    color: white;
+}
+#first:hover{
+background-color:white;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    color: skyblue;
+    border: yellowgreen;
+}
+.dropper:hover .dropdown{
+    display: block;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+}
+.dropper:hover .dropdown a{
+    display: block;
+}
+#second{
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+   margin-top: 0px;
+    margin-right: 17rem;
+}
+#seconds{
+    padding-top: 7px;
+    padding-bottom: 2px;
+    padding-left: 3rem;
+}
+#seconds:hover{
+    background-color: initial;
+}
+#version1{
+    color: white;
+    background-color: black;
+}
+#buy{
+    color: blue;
+    background-color: white;
+    text-decoration:underline;
+    padding: 5px;
+}
+#buy:hover{
+    color: blue;
+    background-color: white;
+    text-decoration: underline;
+    padding: 5px;
+}
+#sect1{
+    clear: both;
+}
+
+.li,.li2,.li3{
+display: list-item;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        trial
+    </title>
+    <script>
+        function hip(){
+            alert("i m in alert");
+            var name=prompt("base");
+            document.getElementById('in').innerHTML=name+"event";
+        }
+        function getdate(){
+            document.getElementById('in1').innerHTML=Date();
+        }
+    </script>
+</head>
+<body>
+   <!--- <script>
+        alert("lets clash");
+        var name=prompt("ur coc username");
+        document.write(name);
+        console.log("hi");
+    </script> --->
+    <p>
+        click below
+    </p>
+  <p id="in" onclick="hip()">names</p>
+  <button type="button" onkeypress="getdate()">click me</button>
+    
+    <script>
+        var ni=hip();
+
+      </script>
+      <p id="in1">click above</p>
+      <form autocomplete="on">
+          <fieldset>
+              <legend>personal info</legend>
+              name:<input type="text" name="name" value="colt"><br>
+              rank:<input type="number" name="rank" value="00000"><br>
+              class type:<input type="radio" name="gender" value="can be determined">can be determined<br>
+              <input type="radio" name="clsd" value="coc">coc<br>
+              number:<input type="date" name="number" value="determined"><br>
+              password:<input type="hidden" name="password" value="----"><br>
+              pass:<input type="password" name="personal" value=""><br>
+              month:<input type="month" name="nil" value="123"><br>
+          </fieldset>
+           gender:<input type="radio" name="gender" value="male">male<br>
+           <input type="radio" name="gender" value="female">female<br>
+           <input type="radio" name="gender" value="neutral">neutral<br>
+           search:
+           <input type="search" name="search" value="type here"><br>
+           cars<select name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+          </select><br>
+          brawl:<input type="range" name=brawl value="0">100
+          <br>
+           <input type="submit" value="submit">
+      </form>
+
+</body>
+</html>

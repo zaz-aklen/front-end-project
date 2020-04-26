@@ -1,0 +1,13 @@
+h1{
+    background: #00ffff;
+    color: chartreuse;
+    font-size: 300%;
+}
+header{
+    background: coral;
+    text-align: center;
+}
+nav{
+    font-variant: small-caps;
+    font-size: x-small;
+}
